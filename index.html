@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Okungbaye Ajibola Application</title>
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <main>
 
         
@@ -17,11 +17,9 @@
                 <div class="logo">
                     <a href="#">Ajibola</a>
                 </div>
-                <i class="fas fa-bars hamburgers"></i>
-                    <!-- <div class="hamburgers">
-                        <span><i class="fas fa-bars open"></i></span>
-                        <span><i class="fab fa-xbox close show "></i></span>
-                    </div> -->
+                <div class="menu-btn">
+                    <span class="hamburger"></span>
+                </div>
             </div>
             
 
@@ -32,7 +30,7 @@
                 <div class="divider"></div>
                 <li class="nav-link"><a href="#skillset">Skills</a></li>
                 <div class="divider"></div>
-                <li class="nav-link"><a href="#">Contact</a></li>
+                <li class="nav-link"><a href="#contact">Contact</a></li>
                 <div class="divider"></div>
             </ul>
         </nav>
@@ -46,24 +44,31 @@
                 <p>My name is </p>
                 <h1> <span class="special-text">O</span>kungbaye <span class="special-text">A</span>jibola</h1>
                 <p>I am a Trade Finance Specialist and an Aspiring Frontend Developer</p>
+                <p>I enjoy building responsive websites and imitating design protoypes.</p>
             </div>
-            <!-- <button type="button" class="btn">Click here for CV</button> -->
+            <button type="button" class="btn"><a href="#about" style="color: white;">More about me</a></button>
         </section>
 
         <section class="section-center" id="about">
             <h1 class="header"><span class="special-text">M</span>y <span class="special-text">E</span>xperience</h1>
             <div class="experiences">
                 <div class="experience">
-                    <h2 class="year">2018 - Present</h2>
-                    <h3 class="company">Standard Bank</h3>
-                    <h4 class="job-role">Trade Finance Specialist</h4>
-                    <p class="jd">Tasked with providing guidance on Trade Related Transactions</p>  
+                    <div class="experience-item">
+                        <h2 class="year">2018 - Present</h2>
+                        <h3 class="company">Standard Bank</h3>
+                        <h4 class="job-role">Trade Finance Specialist</h4>
+                        <p class="jd">Tasked with providing guidance on Trade Related Transactions</p> 
+                    </div>
+                     
                 </div>
                 <div class="experience">
-                    <h2 class="year">May 2021 - July 2021</h2>
-                    <h3 class="company">Virtual CTI</h3>
-                    <h4 class="job-role">Marketing Intern</h4>
-                    <p class="jd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati ex sed unde, nemo totam.</p>  
+                    <div class="experience-item">
+                        <h2 class="year">May 2021 - July 2021</h2>
+                        <h3 class="company">Virtual CTI</h3>
+                        <h4 class="job-role">Marketing Intern</h4>
+                        <p class="jd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi obcaecati ex sed unde, nemo totam.</p>  
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -114,7 +119,7 @@
         </section>
 
         <footer id = 'footer'>
-            <p>Okungbaye Ajibola for <span><img src="./img/zurilogo.svg" alt=""></span></p>
+            <p>Okungbaye Ajibola for <span></span> <a href="https://internship.zuri.team/" target="_blank"><img src="./img/zurilogo.svg" alt=""></a></a></span></p>
         </footer>
         
         

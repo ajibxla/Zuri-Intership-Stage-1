@@ -460,7 +460,7 @@ ul{
 
 .experience{
     padding: 0;
-    border: rgb(50, 38, 59) 5px solid;
+    border: rgb(50, 38, 59) 0.4rem solid;
     display: flex;
     justify-content: center;
     align-items: center;
